@@ -200,3 +200,48 @@ img {
     }
 
 }
+
+.skills .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.skills .skills-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 2rem;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    text-transform: 700;
+    border-bottom: 5px solid #7700ff;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.skills .skills-wrapper span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    font-weight: 300;
+}
+
+.skills .skills-wrapper i {
+    font-size: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .skills .skills-wrapper span {
+        font-size: 1.5rem;
+    }
+
+}
