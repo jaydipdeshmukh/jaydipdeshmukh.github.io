@@ -1,5 +1,7 @@
-body {
+body,
+html {
     font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
 }
 
 * {
